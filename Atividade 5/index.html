@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body style="margin: 0;">
+    <!--Container que contém todos os elementos do topo da página-->
+    <div style="margin-bottom: 30px;">
+        <!--Cabeçalho da página-->
+        <header style="background-color: #4a82bb; padding: 30px 0; color: #250e8f; text-align: center;" id="inicio">
+            <h1 style="font-size: 75px; margin: 0;">HTML <sup>Linguagem de Marcação de Hipertexto</sup></h1>
+            <h2 style="margin: 0;">Tutoriais para iniciantes</h2>
+        </header>
+        <!--Barra de Navegação da página-->
+        <nav>
+            <ul style="list-style: none; display: flex; align-items: center; justify-content: space-evenly; width: 100%; background: #4a82bb; margin-top: 20px; padding: 10px 0;">
+                <li><a href="#inicio" style="text-decoration: none; color: white;">Início</a></li>
+                <li><a href="#html" style="text-decoration: none; color: white;">HTML</a></li>
+                <li><a href="#lista" style="text-decoration: none; color: white;">Tabela e Listas</a></li>
+                <li><a href="#sobre" style="text-decoration: none; color: white;">Sobre CSS, HTML e JS</a></li>
+                <li><a href="#link" style="text-decoration: none; color: white;">Links</a></li>
+                <li><a href="formulario.html" style="text-decoration: none; color: white;">Contatos</a></li>
+            </ul>
+        </nav>
+        <!--Primeiro conteúdo da página.-->
+        <div style="box-sizing: border-box; margin: 20px 20px 40px 20px;" id="html">
+            <div style="float: left; margin: 0s; width: 100%;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:
+                    ANd9GcQpngGRjYX1ca7qAADU3K6eGLj7ShQE3L2otdzfryl_Y9Ht2QRoQKYQbsXd36XIxMbYOw0&usqp=CAU" alt="html icon" width="100px" height="100px" align="left"/>
+                <p style="margin: 0 0 20px 0;">
+                        <strong><ins>HTML</ins></strong> (<i>Linguagem de Marcação de HiperTexto</i>) é o bloco de construção mais básico da web. <mark>Define o significado e a estrutura do conteúdo da web.</mark>Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou afuncionalidade/comportamento (<i>JavaScript</i>) de uma página web. Criada pelo britânico Tim Berners-Lee, o HTML é o componente básico da web, ele permite inserir o conteúdo e estabelecer a estrutura básica de um website. Portanto, ele serve para dar significado e organizar as informações de uma página na web. Sem isso, o navegador não saberia exibir textos como elementos ou carregar imagens e outros conteúdos. Os hipertextos são conjuntos de elementos conectados. Esses podem ser palavras, imagens, vídeos, documento, etc. Quando conectados, formam uma rede de informações que permite a comunicação de dados, organizando conhecimentos e guardando informações. Ao visitar uma página simples na web, você pode perceber que existem diferentes distribuições e tamanhos para títulos, parágrafos, imagens, vídeos e qualquer outro elemento. Essa estrutura é estabelecida através do HTML. No inicio da web, era comum encontrar sites apenas contendo textos e imagens simples, com estrutura básica e sem estilizações. Porém, nos dias atuais, muito dificilmente você encontrará sites que possuam apenas elementos HTML. Portanto, podemos considerar o HTML o “esqueleto” da sua página.
+                </p>
+            </div>
+            <h1>Qual a função do HTML?</h1>
+            <p>Imagine que você precisa construir um site do zero com informações da sua empresa. Nesse caso, você precisará conhecer a estrutura do HTML, criando um documento no bloco de notas e acrescentando códigos — tags —, que indicarão parágrafos, quebra de texto, espaçamento, imagens, entre outros. Em geral, em um único site, existem diversos documentos HTML, criando páginas como homepage, página de produto e informações sobre a empresa. Em cada aba, existe um código diferente.</p>
+        </div>
+        <hr>
+    </div>
+    <!--Container da lista e da tabela.-->
+    <div style="display: flex; margin-bottom: 30px;" id="lista">
+        <!--Tabela da página.-->
+        <div style=" background-color: rgb(163, 163, 241); width: 50%; height: 600px; padding: 32px;">
+            <table width="500px" cellpadding="8px" align="center">
+                <thead bgcolor="#4a82bb" align="left">
+                    <tr>
+                        <th colspan="2" align="center">
+                            <font color="white">Tabela de TAGs HTML</font>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <font color="white">TAG</font>
+                        </th>
+                        <th align="">
+                            <font color="white">UTILIDADE</font>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr bgcolor="#cfd7e7">
+                        <td><strong>a</strong></td>
+                        <td>é usada para criar uma âncora de onde vincular</td>
+                    </tr>
+                    <tr bgcolor="#e8ecf4">
+                        <td><strong>img</strong></td>
+                        <td>é utilizado para inserir imagens em uma página HTML</td>
+                    </tr>
+                    <tr bgcolor="#cfd7e7">
+                        <td><strong>h</strong></td>
+                        <td>é utilizada para inserir títulos e subtítulos</td>
+                    </tr>
+                    <tr bgcolor="#e8ecf4">
+                        <td><strong>P</strong></td>
+                        <td>é utilizada para demarcar um parágrafo</td>
+                    </tr>
+                    <tr bgcolor="#cfd7e7">
+                        <td><strong>div</strong></td>
+                        <td>serve para alterar o estilo em partes específicas da página e posicionar objetos</td>
+                    </tr>
+                    <tr bgcolor="#e8ecf4">
+                        <td><strong>strong</strong></td>
+                        <td>é utilizado em conteúdos que são de "grande importância", incluindo coisas de urgentes (como alertas)
+                        </td>
+                    </tr>
+                    <tr bgcolor="#cfd7e7">
+                        <td><strong>i</strong></td>
+                        <td>pode representar uma parte do texto com uma diferença semântica, na qual a representação tipográfica padrão é no tipo itálico
+                        </td>
+                    </tr>
+                    <tr bgcolor="#e8ecf4">
+                        <td><strong>form</strong></td>
+                        <td>cria um bloco para que tags de formulário e seus dados sejam agrupados e encaminhados para outro documento, temos os seguintes tipos:
+                            <ol type="i">
+                                <li>input type="text"</li>
+                                <li>input type="radio"</li>
+                                <li>input type="checkbox"</li>
+                                <li>input type="submit"</li>
+                                <li>input type="password"</li>
+                            </ol>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--Lista da Página-->
+        <div style="background-color: rgb(77, 72, 72); width: 50%; height: 600px; padding: 32px; color: white;">
+            <ul style="margin: 0;">
+                <h2>Protocos da Internet</h2>
+                <li>TCP - Transmission Control Protocol, utilizado no envio e no recebimento de dados na web</li>
+                <li>HTTPS - Hyper Text Transfer Protocol Secure, é um protocolo da internet que visa realizar a comunicação de dispositivos com os servidores do mundo todo</li>
+                <li>XMPP - Extensible Messaging and Presence Protocol é um protocolo aberto, extensível, baseado em XML, para sistemas de mensagens instantâneas</li>
+                <li>SMTP - Protocolo de Transferência de Correio Simples é o protocolo padrão de envio de mensagens de correio eletrônico através da Internet entre dois dispositivos computacionais</li>
+                <li>DHCP - Dynamic Host Configuration Protocol, é um protocolo de serviço TCP/IP que oferece configuração dinâmica de terminais, com concessão de endereços IP de host, máscara de sub-rede, default gateway, número IP de um ou mais servidores
+                    DNS, sufixos de pesquisa do DNS e número IP de um ou mais servidores WINS</li>
+            </ul>
+            <ol type="">
+                <h3>Top 5 protocolos</h3>
+                <li>HTTP - HyperText Transfer Protocol</li>
+                <li>FTP - File Transfer Protocol</li>
+                <li>POP - Post Office Protocol</li>
+                <li>SMTP - Simple Mail Transfer Protocol</li>
+                <li>IMAP - Internet Messaging Access Protocol</li>
+            </ol>
+        </div>
+    </div>
+    <!--Container das definições dos elementos de uma página.-->
+    <div style="display: flex; margin-bottom: 30px;" id="sobre">
+        <div style="background-color: #81ecec; width: 33%; height: 400px; padding: 10px; padding-left: 30px; padding-right: 30px;">
+            <h2>O que é CSS?</h2>
+            <P>Trata-se de uma linguagem de marcação, amplamente utilizada com HTML ou XHTML, e representa diversas possibilidades para a formatação. O CSS ajuda a editar, alinhar, remover e trabalhar no espaço entre elementos de uma página.</P>
+        </div>
+        <div style="background-color: #00cec9; width: 34%; height: 400px; padding: 10px; padding-left: 30px; padding-right: 30px;">
+            <h2>O que é HTML?</h2>
+            <p>Sigla para HyperText Markup Language — Linguagem de Marcação de Hipertexto —, o HTML é o componente base da web. Isso quer dizer que ele permite a construção de websites e a inserção de novos conteúdos, como imagens e vídeos, por meio dos
+                hipertextos.
+            </p>
+        </div>
+        <div style="background-color: #7466df; width: 33%; height: 400px; padding: 10px; padding-left: 30px; padding-right: 30px;">
+            <h2>O que é JavaScript</h2>
+            <p>JavaScript é uma linguagem de programação usada por desenvolvedores para fazer páginas interativas da Internet.</p>
+        </div>
+    </div>
+    <!--Rodapé da página-->
+    <footer>
+        <div style="display: grid; grid-template-columns: auto auto auto auto;" id="link">
+            <div style="background-color: #3498db;">
+                <h2>Sobre</h2>
+                <ul>
+                    <li><a href="#inicio" style="text-decoration: none;">Topo</a></li>
+                    <li>Loja Oficial</li>
+                    <li>Política de privacidade</li>
+                    <li>Fale conosco</li>
+                </ul>
+            </div>
+            <div style="background-color: #2980b9;">
+                <h2>Tutoriais</h2>
+                <ul>
+                    <li><a href="https://www.youtube.com/@profdanielbrandao" target="_blank" style="text-decoration: none;">Youtube 1</a></li>
+                    <li><a href="https://www.youtube.com/@freecodecamp" target="_blank" style="text-decoration: none;">Youtube 2</a></li>
+                    <li><a href="https://www.freecodecamp.org/" target="_blank" style="text-decoration: none;">FreeCodeCamp</a></li>
+                    <li><a href="https://lp.onebitcode.com/?utm_campaign=OBC-C%20%7C%20E0-UNC%20%7C%20CAR%20%7C%20SCH%20%7C%20T1S-BRD%20%7C%20CPA%20%7C%20BR%20%7C%202022-11-10%20%7C%20FULL%20STACK%20%7C%20Branding&utm_content=onebitcode&utm_term=00%20%7C%20SCH%20%7C%20Keywords%20%7C%20%20Branding&utm_medium=paid-traffic&utm_source=g&ltk_gcm=18880005963&ltk_gag=149084349491&ltk_gac=634287089203&ltk_gne=g&gclid=EAIaIQobChMI6KTmtYO2_gIViBTUAR3D2QCUEAAYASAAEgKuZfD_BwE" target="_blank" style="text-decoration: none;">OneBitCode</a></li>
+                </ul>
+            </div>
+            <div style="background-color: #1abc9c;">
+                <h2>Categorias</h2>
+                <ul>
+                    <li>Design</li>
+                    <li>Marketing</li>
+                    <li>Programação</li>
+                    <li>Tutoriais</li>
+                </ul>
+            </div>
+            <div style="background-color: #16a085;">
+                <h2>Contatos</h2>
+                <ul>
+                    <li>E-BOOKS</li>
+                    <li>20 Leis de UX</li>
+                    <li>Introdução ao Bootstrap</li>
+                    <li>Fale conosco</li>
+                </ul>
+            </div>
+        </div>
+        <div style="display: flex; justify-content: center; margin-top: 20px;">
+            <p>José Nichollas © Direitos Reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
